@@ -24,7 +24,7 @@ The Waterfall Model is selected due to the following reasons:
 * **High Reliability and Security:** In banking, security is paramount. The Waterfall model’s structured phases allow for rigorous verification and validation at each stage before moving to the next.
 * **Disciplined Documentation:** This model emphasizes thorough documentation. For financial systems, having a clear audit trail of requirements, design specifications, and test cases is essential for regulatory compliance.
 * **Low Risk of Requirement Creep:** Since the system interfaces with specific hardware and legacy banking databases, a linear approach ensures that all technical constraints are addressed upfront.
-* **Clear Milestones:** The sequential nature provides the bank with clear progress indicators, ensuring that the software is fully mature and tested before being deployed to thousands of physical kiosks.
+* **Clear Milestones:** The sequential nature provides the bank with clear progress indicators, ensuring that the software is fully mature and tested before being deployed to physical kiosks.
 
 ---
 
@@ -35,39 +35,8 @@ The Waterfall Model is selected due to the following reasons:
 ---
 
 ## 5️⃣ Diagram: Waterfall SDLC
-The following diagram illustrates the linear, sequential flow of the Waterfall Model:
 
-```text
-+-----------------------+
-| Requirements Analysis |
-+-----------+-----------+
-            |
-            v
-    +-------+-------+
-    | System Design |
-    +-------+-------+
-            |
-            v
-    +-------+--------+
-    | Implementation |
-    +-------+--------+
-            |
-            v
-      +-----+-----+
-      |  Testing  |
-      +-----+-----+
-            |
-            v
-     +------+------+
-     |  Deployment |
-     +------+------+
-            |
-            v
-     +------+------+
-     | Maintenance |
-     +-------------+
-
-```
+![Waterfall SDLC Diagram](waterfall_sdlc.png)
 
 ---
 
