@@ -1,4 +1,4 @@
-content = """# Software Engineering Assignment: SDLC Model Selection
+# Software Engineering Assignment: SDLC Model Selection
 
 **Course:** Software Engineering  
 **Topic:** SDLC Model Selection  
@@ -67,15 +67,10 @@ The following diagram illustrates the linear, sequential flow of the Waterfall M
      | Maintenance |
      +-------------+
 
+```
 
-6️⃣ Conclusion
+---
+
+## 6️⃣ Conclusion
 
 For an ATM Software System, the Waterfall Model is the most logical choice. Its rigid structure, emphasis on documentation, and requirement for a completed phase before the next begins ensure the high-integrity environment required for financial software. It prioritizes system stability and security over development speed, which is the correct trade-off for banking infrastructure.
-"""
-
-with open("README.md", "w") as f:
-f.write(content)
-
-Your README.md file for the Software Engineering assignment on the ATM Software System is ready.
-
-[file-tag: code-generated-file-0-1777136363066087005]
